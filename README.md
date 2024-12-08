@@ -32,4 +32,4 @@ Siga os passos abaixo para visualizar o projeto em sua máquina local:
 
 1. Clone este repositório para sua máquina:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   https://github.com/Anakaroliness/Nota-2
