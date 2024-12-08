@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | PetShop Amigo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="imagens/imagenslogo-petshop.png" alt="Logo PetShop Amigo" class="logo">
+            </div>
+    
+            <!-- Barra de Busca -->
+            <div class="search-container">
+                <input type="text" placeholder="O que você procura?" class="search-bar">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+    
+            <!-- Ícones Funcionais -->
+            <div class="icons-container">
+                <a href="login.html" class="icon-link">
+                    <i class="fas fa-user"></i> Entrar/Cadastrar-se
+                </a>
+                <a href="favoritos.html" class="icon-link">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a href="carrinho.html" class="icon-link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    
+        <!-- Menu Principal -->
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html"class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+
+    <main>
+        <section class="section">
+            <div class="contact-header">
+                <h2>Fale Conosco</h2>
+                <p>Preencha o formulário abaixo para entrar em contato conosco. Responderemos o mais breve possível!</p>
+            </div>
+            <!-- O restante do formulário aqui -->
+        </section>
+    </main>
+    
+            <!-- Formulário de Contato -->
+            <form action="#" method="POST" class="form-contato">
+                <div class="input-group">
+                    <label for="nome">Nome Completo:</label>
+                    <div class="input-container">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">E-mail:</label>
+                    <div class="input-container">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <div class="input-container">
+                        <i class="fas fa-comment-dots"></i>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-submit"><i class="fas fa-paper-plane"></i> Enviar Mensagem</button>
+            </form>
+
+            <!-- Informações de Contato -->
+            <section class="contato-info">
+                <h3>Outras Formas de Contato</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> <strong>Endereço:</strong> Rua dos Animais Felizes, 123, Petlândia</li>
+                    <li><i class="fas fa-phone-alt"></i> <strong>Telefone:</strong> (11) 1234-5678</li>
+                    <li><i class="fas fa-envelope"></i> <strong>E-mail:</strong> <a href="mailto:contato@petshopamigo.com">contato@petshopamigo.com</a></li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 PetShop Amigo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

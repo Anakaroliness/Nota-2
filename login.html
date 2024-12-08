@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Cadastro | PetShop Amigo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="imagens/imagenslogo-petshop.png" alt="Logo PetShop Amigo" class="logo">
+            </div>
+        
+            <!-- Barra de Busca -->
+            <div class="search-container">
+                <input type="text" placeholder="O que você procura?" class="search-bar">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        
+            <!-- Ícones Funcionais -->
+            <div class="icons-container">
+                <a href="login.html" class="icon-link">
+                    <i class="fas fa-user"></i> Entrar/Cadastrar-se
+                </a>
+                <a href="favoritos.html" class="icon-link">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <a href="carrinho.html" class="icon-link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Menu Principal -->
+        <nav class="menu">
+            <ul class="menu-categorias">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login e Cadastro -->
+    <div class="login-container">
+        <div class="login-header">
+            <i class="fas fa-user-circle user-icon"></i>
+            <h2>Acesse sua conta</h2>
+            <p>Use uma das opções para confirmar sua identidade</p>
+        </div>
+        <div class="login-options">
+            <button class="login-button email-button">Entrar com email e senha</button>
+            <button class="login-button key-button">Entrar com chave de acesso</button>
+        </div>
+        <div class="login-divider">
+            <hr>
+            <span>Ainda não possui cadastro online no PetShop Amigo?</span>
+            <hr>
+        </div>
+        <div class="register-container">
+            <button class="register-button">Crie sua conta</button>
+        </div>
+        <footer class="login-footer">
+            <p>Ao acessar, você está de acordo com os <a href="#">Termos de Uso</a> e <a href="#">Política de Privacidade</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>

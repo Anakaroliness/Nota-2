@@ -1,0 +1,74 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo Global */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #6A1B9A;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #6A1B9A;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li a {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.menu li a.active,
+.menu li a:hover {
+    background-color: #FFD700;
+    color: #4B0082;
+}
+
+/* Rodapé */
+footer {
+    background-color: #6A1B9A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
